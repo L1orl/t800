@@ -2,7 +2,7 @@ ReplicaNumber: 3
 
 containers:
   containerPort: 8080
-  image: 'quay.io/l1orl/t800img:'
+  image: 'quay.io/l1orl/t800img'
   tag: 'v2'
 
 service:
