@@ -3,7 +3,7 @@ name: workshop-test
 description: A Helm chart for Kubernetes
 type: application
 dependencies:
-  - name: helm
+  - name: t800
     repository: oci://ghcr.io/l1orl
     version: "1.0.0"
     alias: deploy1
