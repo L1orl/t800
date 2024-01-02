@@ -53,7 +53,7 @@ spec:
                       successThreshold: 1
                       failureThreshold: 3
       env:
-                      - name: port
+                      - name: PORT
                         value: {{ .Values.containers.containerPort | quote }}
   strategy:
     type: RollingUpdate
